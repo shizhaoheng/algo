@@ -1,0 +1,15 @@
+/target
+/.settings
+/.project
+/.classpath
+/.DS_Store
+/derby.log
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+/bin
+hs_err_pid*.log
+replay_pid*.log
