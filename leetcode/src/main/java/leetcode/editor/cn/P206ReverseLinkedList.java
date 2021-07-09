@@ -72,7 +72,7 @@ public class P206ReverseLinkedList {
         printAll(headRev);
         System.out.println(node4);
         System.out.println(headRev);
-
+        
 
     }
 
@@ -110,14 +110,14 @@ public class P206ReverseLinkedList {
     class Solution {
         //方法一：双指针迭代
         public ListNode reverseList1(ListNode head) {
-            ListNode prev = null, curr = head, nextTmp = null;
-            while (curr != null) {
-                nextTmp = curr.next;
-                curr.next = prev;
-                prev = curr;
-                curr = nextTmp;
+            ListNode pre = null, cur = head;
+            while (cur != null) {
+                ListNode tmp = cur.next;
+                cur.next = pre;
+                pre = cur;
+                cur = tmp;
             }
-            return prev;
+            return pre;
         }
 
         //方法一：递归解法
