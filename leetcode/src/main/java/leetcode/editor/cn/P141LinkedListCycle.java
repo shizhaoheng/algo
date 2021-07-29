@@ -91,8 +91,7 @@ public class P141LinkedListCycle {
 //            }
 //            return false;
 
-
-            //方法二：快慢指针
+            //方法二：快慢指针  空间复杂度为O(1)
             if (head == null || head.next == null) {
                 return false;
             }
