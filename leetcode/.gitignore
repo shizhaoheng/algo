@@ -1,0 +1,18 @@
+target/
+/.settings
+/.project
+/.classpath
+/.DS_Store
+/derby.log
+# IntelliJ Idea
+.idea/
+out/
+*.ipr
+*.iws
+*.iml
+/bin
+hs_err_pid*.log
+replay_pid*.log
+
+leetcode/src/main/java/leetcode/editor/cn/doc/all.json
+leetcode/src/main/java/leetcode/editor/cn/doc/translation.json
