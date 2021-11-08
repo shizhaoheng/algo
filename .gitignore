@@ -16,3 +16,4 @@ replay_pid*.log
 
 leetcode/src/main/java/leetcode/editor/cn/doc/all.json
 leetcode/src/main/java/leetcode/editor/cn/doc/translation.json
+leetcode/src/main/java/leetcode/editor/cn/doc/solution/
